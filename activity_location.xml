@@ -1,0 +1,473 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#414141">
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:id="@+id/current_location"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text = "@string/location" />
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:layout_width="fill_parent"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:layout_weight = "1"
+            android:text="@string/Ohare"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight = "1"
+            android:text="@string/Rosemont"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:text="@string/Cumberland"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:text="@string/HarlemN"
+            android:textSize="24sp" />
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/JeffersonPark"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding= "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Montrose"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding= "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Irving"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Addison"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Belmont"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/LoganSquare"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/California"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/WesternN"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Damen"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Chicago"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Grand"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Clark_Lake"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Washington"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Monroe"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Jackson"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/LaSalle"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding = "15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Clinton"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/UIC"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Racine"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/IllinoisMedical"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/WesternS"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/KedzieHoman"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Pulaski"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Cicero"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/Austin"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/OakPark"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/HarlemS"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:background="@drawable/textview_border"
+            android:padding="15dp"
+            android:textColor="@color/White"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/ForestPark"
+            android:layout_weight = "1"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+</ScrollView>
